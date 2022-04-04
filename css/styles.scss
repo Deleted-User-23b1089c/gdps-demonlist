@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Rubik:wght@300&family=Ubuntu&display=swap');
+
+body {
+    font-family: "Ubuntu", sans-serif;
+    background: #111;
+    overflow-x: hidden;
+    div { color: #ccc; }
+    .nav {
+        .line {
+            border: 1px solid red;
+            width: 100%;
+            border-radius: 5px;
+            margin-top: 120px;
+            transition: all .5s;
+        }
+        .logo {
+            position: relative;
+            top: -90px;
+            margin-left: 10px;
+            height: 40px;
+            width: 40px;
+            border: 5px solid red;
+            transform: rotate(45deg);
+            .logo1 {
+                height: 20px;
+                width: 20px;
+                border: 5px solid darkred;
+                position: relative;
+                top: 5px;
+                left: 5px;
+            }
+
+        }
+        .logo-title {
+            font-weight: bold;
+            color: #ccc;
+            position: relative;
+            top: -210px;
+            left: 90px;
+        }
+        .login {
+            border: none;
+            outline: none;
+            background: none;
+            color: #ccc;
+            font-size: 20px;
+            cursor: pointer;
+            left: 85%;
+            position: relative;
+            z-index: 100;
+            top: -140px;
+            background: linear-gradient(to bottom,#ed153d, #801d1f);
+            padding: 15px;
+            width: 150px;
+            right: 100px;
+            font-weight: 100;
+            border-radius: 5px;
+        }
+    }
+    .user-card {
+        width: 400px;
+        height: 180px;
+        background: linear-gradient(to bottom, #fff, #999);
+        border-radius: 5px;
+        margin-left: 50px;
+        .nickname {
+            font-size: 30px;
+            position: relative;
+            top: 91px;
+            left: 20%;
+            text-transform: uppercase;
+            color: #333;
+        }
+        .points {
+            font-size: 30px;
+            position: relative;
+            top: 25px;
+            left: 60%;
+            color: #333;
+        }
+        p {
+            position: absolute;
+            color: #555;
+        }
+        p.profile {
+            top: 350px;
+            left: 130px;
+        }
+        p.point {
+            top: 350px;
+            left: 280px;
+        }
+    }
+
+    .demonlist {
+        width: 600px;
+        height: 284px;
+        background: #282d2e;
+        border-radius: 5px;
+        margin-left: 40%;
+        position: relative;
+        top: -183px;
+        border: 1px solid #ccc;
+        overflow-y: scroll;
+        .level {
+            color: #fff;
+            height: 90px;
+            margin-left: 20px;
+            div {
+                margin-top: 5px;
+                margin-left: 90px;
+                font-size: 17px;
+                font-weight: bold;
+            }
+            .author {
+                color: #ed153d;
+                font-size: 17px;
+            }
+        }
+        .num-top {
+            padding: 20px;
+            position: relative;
+            width: 30px;
+            top: 35px;
+            margin-left: 10px;
+            background: linear-gradient(to bottom,#ed153d, #801d1f);
+            border-radius: 5px;
+        }
+        .num-sec {
+            padding: 20px;
+            position: relative;
+            width: 30px;
+            top: 35px;
+            margin-left: 10px;
+            background: linear-gradient(to bottom, #999, #444);
+            border-radius: 5px;
+        }
+        .num-def {
+            padding: 20px;
+            position: relative;
+            width: 30px;
+            top: 35px;
+            margin-left: 10px;
+            background: linear-gradient(to bottom, #444, #222);
+            border-radius: 5px;
+        }
+    }
+    .add {
+        position: absolute;
+        border: none;
+        outline: none;
+        background: none;
+        color: #ccc;
+        font-size: 20px;
+        cursor: pointer;
+        background: linear-gradient(to bottom,#ed153d, #801d1f);
+        padding: 15px;
+        border-radius: 5px;
+        left: 73.7%;
+        top: 30%;
+        z-index: 100;
+    }
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+@keyframes gradient {
+    0% {
+        background: linear-gradient(to left, #ff571f, #621fff);
+    }
+    100% {
+        background: linear-gradient(to right, #ff571f, #621fff);
+    }
+}

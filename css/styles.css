@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Rubik:wght@300&family=Ubuntu&display=swap");
+body {
+  font-family: "Ubuntu", sans-serif;
+  background: #111;
+  overflow-x: hidden;
+}
+
+body div {
+  color: #ccc;
+}
+
+body .nav .line {
+  border: 1px solid red;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 120px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+body .nav .logo {
+  position: relative;
+  top: -90px;
+  margin-left: 10px;
+  height: 40px;
+  width: 40px;
+  border: 5px solid red;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+body .nav .logo .logo1 {
+  height: 20px;
+  width: 20px;
+  border: 5px solid darkred;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+body .nav .logo-title {
+  font-weight: bold;
+  color: #ccc;
+  position: relative;
+  top: -210px;
+  left: 90px;
+}
+
+body .nav .login {
+  border: none;
+  outline: none;
+  background: none;
+  color: #ccc;
+  font-size: 20px;
+  cursor: pointer;
+  left: 85%;
+  position: relative;
+  z-index: 100;
+  top: -140px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ed153d), to(#801d1f));
+  background: linear-gradient(to bottom, #ed153d, #801d1f);
+  padding: 15px;
+  width: 150px;
+  right: 100px;
+  font-weight: 100;
+  border-radius: 5px;
+}
+
+body .user-card {
+  width: 400px;
+  height: 180px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#999));
+  background: linear-gradient(to bottom, #fff, #999);
+  border-radius: 5px;
+  margin-left: 50px;
+}
+
+body .user-card .nickname {
+  font-size: 30px;
+  position: relative;
+  top: 91px;
+  left: 20%;
+  text-transform: uppercase;
+  color: #333;
+}
+
+body .user-card .points {
+  font-size: 30px;
+  position: relative;
+  top: 25px;
+  left: 60%;
+  color: #333;
+}
+
+body .user-card p {
+  position: absolute;
+  color: #555;
+}
+
+body .user-card p.profile {
+  top: 350px;
+  left: 130px;
+}
+
+body .user-card p.point {
+  top: 350px;
+  left: 280px;
+}
+
+body .demonlist {
+  width: 600px;
+  height: 284px;
+  background: #282d2e;
+  border-radius: 5px;
+  margin-left: 40%;
+  position: relative;
+  top: -183px;
+  border: 1px solid #ccc;
+  overflow-y: scroll;
+}
+
+body .demonlist .level {
+  color: #fff;
+  height: 90px;
+  margin-left: 20px;
+}
+
+body .demonlist .level div {
+  margin-top: 5px;
+  margin-left: 90px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+body .demonlist .level .author {
+  color: #ed153d;
+  font-size: 17px;
+}
+
+body .demonlist .num-top {
+  padding: 20px;
+  position: relative;
+  width: 30px;
+  top: 35px;
+  margin-left: 10px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ed153d), to(#801d1f));
+  background: linear-gradient(to bottom, #ed153d, #801d1f);
+  border-radius: 5px;
+}
+
+body .demonlist .num-sec {
+  padding: 20px;
+  position: relative;
+  width: 30px;
+  top: 35px;
+  margin-left: 10px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#999), to(#444));
+  background: linear-gradient(to bottom, #999, #444);
+  border-radius: 5px;
+}
+
+body .demonlist .num-def {
+  padding: 20px;
+  position: relative;
+  width: 30px;
+  top: 35px;
+  margin-left: 10px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#444), to(#222));
+  background: linear-gradient(to bottom, #444, #222);
+  border-radius: 5px;
+}
+
+body .add {
+  position: absolute;
+  border: none;
+  outline: none;
+  background: none;
+  color: #ccc;
+  font-size: 20px;
+  cursor: pointer;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ed153d), to(#801d1f));
+  background: linear-gradient(to bottom, #ed153d, #801d1f);
+  padding: 15px;
+  border-radius: 5px;
+  left: 73.7%;
+  top: 30%;
+  z-index: 100;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@-webkit-keyframes gradient {
+  0% {
+    background: -webkit-gradient(linear, right top, left top, from(#ff571f), to(#621fff));
+    background: linear-gradient(to left, #ff571f, #621fff);
+  }
+  100% {
+    background: -webkit-gradient(linear, left top, right top, from(#ff571f), to(#621fff));
+    background: linear-gradient(to right, #ff571f, #621fff);
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background: -webkit-gradient(linear, right top, left top, from(#ff571f), to(#621fff));
+    background: linear-gradient(to left, #ff571f, #621fff);
+  }
+  100% {
+    background: -webkit-gradient(linear, left top, right top, from(#ff571f), to(#621fff));
+    background: linear-gradient(to right, #ff571f, #621fff);
+  }
+}
+/*# sourceMappingURL=styles.css.map */
